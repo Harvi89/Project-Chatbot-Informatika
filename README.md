@@ -34,7 +34,7 @@ Tujuan utama project ini adalah menghasilkan chatbot yang mampu memberikan jawab
 | CSS | Tampilan antarmuka |
 | JavaScript | Interaksi chatbot |
 | Scikit-learn | Implementasi TF-IDF dan Cosine Similarity |
-| OpenAI API | Large Language Model |
+| Gemini API | Large Language Model |
 | JSON | Penyimpanan Knowledge Base |
 | Git & GitHub | Pengelolaan versi dan kolaborasi |
 
