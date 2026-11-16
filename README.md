@@ -76,7 +76,7 @@ Knowledge Base dibagi menjadi empat kategori agar pengelolaan informasi dapat di
 |---|---|
 | `kb_jadwal.json` | Jadwal kuliah, mata kuliah, dosen, dan ruangan |
 | `kb_akademik.json` | KRS, KHS, SKS, IPK, UTS, dan UAS |
-| `kb_kemahasiswaan.json` | Beasiswa, organisasi, UKM, dan kegiatan mahasiswa |
+| `kb_kemahasiswaan.json` | Beasiswa, organisasi, dan kegiatan mahasiswa |
 | `kb_informasi_kampus.json` | Perpustakaan, Wi-Fi, laboratorium, dan fasilitas kampus |
 
 Setiap data Knowledge Base menggunakan informasi berupa kategori, isi informasi, pola pertanyaan (*patterns*), dan jawaban (*answer*).
