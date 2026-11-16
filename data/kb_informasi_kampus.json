@@ -17,10 +17,11 @@
       "category": "wifi_kampus",
       "content": "Wi-Fi kampus merupakan fasilitas jaringan internet nirkabel yang disediakan untuk mendukung kegiatan belajar dan aktivitas akademik mahasiswa.",
       "patterns": [
-        "Apakah kampus menyediakan Wi-Fi?",
-        "Bagaimana cara menggunakan Wi-Fi kampus?",
-        "Cara menghubungkan internet kampus",
-        "Informasi jaringan Wi-Fi kampus"
+        "Wi-Fi",
+        "Wi-Fi kampus?",
+        "internet kampus",
+        "jaringan Wi-Fi kampus",
+        "wifi"
       ],
       "answer": "Wi-Fi kampus merupakan fasilitas internet untuk mendukung kegiatan akademik. Silakan tanyakan kepada bagian teknologi informasi kampus mengenai nama jaringan dan akun akses."
     },

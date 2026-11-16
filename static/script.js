@@ -5,6 +5,8 @@ const sendButton = document.getElementById("send-btn");
 const newChatButton = document.getElementById("new-chat");
 const typingIndicator = document.getElementById("typing-indicator");
 
+let isSending = false;
+
 // Menampilkan pesan ke area chat
 function addMessage(text, sender) {
     const message = document.createElement("div");
@@ -22,18 +24,16 @@ function addMessage(text, sender) {
     message.appendChild(content);
 
     chatMessages.appendChild(message);
-
-    // Otomatis scroll ke pesan terbaru
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
-// Mengirim pertanyaan ke backend Python
+// Mengirim pertanyaan ke backend
 async function sendMessage() {
     const message = userInput.value.trim();
 
-    if (!message) return;
+    if (!message || isSending) return;
 
-    // Tampilkan pesan pengguna
+    isSending = true;
     addMessage(message, "user");
 
     userInput.value = "";
@@ -43,6 +43,13 @@ async function sendMessage() {
         typingIndicator.style.display = "block";
     }
 
+    // Batas waktu menunggu respons 30 detik
+    const controller = new AbortController();
+
+    const timeout = setTimeout(() => {
+        controller.abort();
+    }, 30000);
+
     try {
         const response = await fetch("/chat", {
             method: "POST",
@@ -51,30 +58,45 @@ async function sendMessage() {
             },
             body: JSON.stringify({
                 message: message
-            })
+            }),
+            signal: controller.signal
         });
-
-        if (!response.ok) {
-            throw new Error("Gagal menghubungi server.");
-        }
 
         const data = await response.json();
 
-        // Tampilkan jawaban chatbot
+        if (!response.ok) {
+            throw new Error(
+                data.response || "Gagal menghubungi server."
+            );
+        }
+
         addMessage(
-            data.response || "Maaf, chatbot belum memberikan jawaban.",
+            data.response || "Chatbot belum memberikan jawaban.",
             "bot"
         );
+
+        console.log("Sumber jawaban:", data.source);
+        console.log("Waktu proses:", data.processing_time);
 
     } catch (error) {
         console.error("Error:", error);
 
-        addMessage(
-            "Maaf, terjadi kesalahan. Pastikan server Python sedang berjalan.",
-            "bot"
-        );
+        if (error.name === "AbortError") {
+            addMessage(
+                "Maaf, chatbot membutuhkan waktu terlalu lama. Silakan coba kembali.",
+                "bot"
+            );
+        } else {
+            addMessage(
+                "Maaf, terjadi kesalahan: " + error.message,
+                "bot"
+            );
+        }
 
     } finally {
+        clearTimeout(timeout);
+
+        isSending = false;
         sendButton.disabled = false;
 
         if (typingIndicator) {
@@ -88,7 +110,7 @@ async function sendMessage() {
 // Klik tombol kirim
 sendButton.addEventListener("click", sendMessage);
 
-// Tekan Enter untuk mengirim pesan
+// Tekan Enter untuk mengirim
 userInput.addEventListener("keydown", function(event) {
     if (event.key === "Enter" && !event.shiftKey) {
         event.preventDefault();
@@ -96,9 +118,11 @@ userInput.addEventListener("keydown", function(event) {
     }
 });
 
-// Tombol percakapan baru
+// Percakapan baru
 if (newChatButton) {
     newChatButton.addEventListener("click", function() {
+        if (isSending) return;
+
         chatMessages.innerHTML = "";
 
         addMessage(

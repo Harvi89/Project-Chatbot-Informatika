@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": "dosen_001",
+    "category": "dosen",
+    "content": "Dr. Raka Pratama, M.Kom. adalah dosen fiktif untuk data demonstrasi chatbot UNP. Fakultas: Fakultas Teknik. Program studi: Informatika. Bidang keahlian: Kecerdasan Buatan dan Pembelajaran Mesin.",
+    "patterns": [
+      "Siapa Dr. Raka Pratama",
+      "dosen Informatika",
+      "dosen Fakultas Teknik",
+      "bidang keahlian Raka Pratama"
+    ],
+    "answer": "Data dummy: Dr. Raka Pratama, M.Kom. Fakultas: Fakultas Teknik. Program studi: Informatika. Bidang keahlian: Kecerdasan Buatan dan Pembelajaran Mesin. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_002",
+    "category": "dosen",
+    "content": "Maya Lestari, M.Pd. adalah dosen fiktif. Fakultas: Fakultas Ilmu Pendidikan. Program studi: Teknologi Pendidikan. Bidang keahlian: Media pembelajaran digital.",
+    "patterns": [
+      "Siapa Maya Lestari",
+      "dosen Teknologi Pendidikan",
+      "dosen Fakultas Ilmu Pendidikan",
+      "bidang keahlian Maya Lestari"
+    ],
+    "answer": "Data dummy: Maya Lestari, M.Pd. Fakultas: Fakultas Ilmu Pendidikan. Program studi: Teknologi Pendidikan. Bidang keahlian: Media pembelajaran digital. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_003",
+    "category": "dosen",
+    "content": "Dimas Saputra, M.Sn. adalah dosen fiktif. Fakultas: Fakultas Bahasa dan Seni. Program studi: Desain Komunikasi Visual. Bidang keahlian: Desain grafis dan komunikasi visual.",
+    "patterns": [
+      "Siapa Dimas Saputra",
+      "dosen Desain Komunikasi Visual",
+      "dosen Fakultas Bahasa dan Seni",
+      "bidang keahlian Dimas Saputra"
+    ],
+    "answer": "Data dummy: Dimas Saputra, M.Sn. Fakultas: Fakultas Bahasa dan Seni. Program studi: Desain Komunikasi Visual. Bidang keahlian: Desain grafis dan komunikasi visual. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_004",
+    "category": "dosen",
+    "content": "Nadia Putri, M.Si. adalah dosen fiktif. Fakultas: Fakultas Matematika dan IPA. Program studi: Statistika. Bidang keahlian: Analisis data dan statistika terapan.",
+    "patterns": [
+      "Siapa Nadia Putri",
+      "dosen Statistika",
+      "dosen Fakultas Matematika dan IPA",
+      "bidang keahlian Nadia Putri"
+    ],
+    "answer": "Data dummy: Nadia Putri, M.Si. Fakultas: Fakultas Matematika dan IPA. Program studi: Statistika. Bidang keahlian: Analisis data dan statistika terapan. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_005",
+    "category": "dosen",
+    "content": "Fajar Hidayat, M.Si. adalah dosen fiktif. Fakultas: Fakultas Ilmu Sosial. Program studi: Ilmu Komunikasi. Bidang keahlian: Komunikasi digital dan media.",
+    "patterns": [
+      "Siapa Fajar Hidayat",
+      "dosen Ilmu Komunikasi",
+      "dosen Fakultas Ilmu Sosial",
+      "bidang keahlian Fajar Hidayat"
+    ],
+    "answer": "Data dummy: Fajar Hidayat, M.Si. Fakultas: Fakultas Ilmu Sosial. Program studi: Ilmu Komunikasi. Bidang keahlian: Komunikasi digital dan media. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_006",
+    "category": "dosen",
+    "content": "Sinta Maharani, M.Pd. adalah dosen fiktif. Fakultas: Fakultas Ilmu Keolahragaan. Program studi: Pendidikan Jasmani. Bidang keahlian: Pendidikan jasmani dan kebugaran.",
+    "patterns": [
+      "Siapa Sinta Maharani",
+      "dosen Pendidikan Jasmani",
+      "dosen Fakultas Ilmu Keolahragaan",
+      "bidang keahlian Sinta Maharani"
+    ],
+    "answer": "Data dummy: Sinta Maharani, M.Pd. Fakultas: Fakultas Ilmu Keolahragaan. Program studi: Pendidikan Jasmani. Bidang keahlian: Pendidikan jasmani dan kebugaran. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_007",
+    "category": "dosen",
+    "content": "Arif Ramadhan, M.M. adalah dosen fiktif. Fakultas: Fakultas Ekonomi dan Bisnis. Program studi: Manajemen. Bidang keahlian: Manajemen sumber daya manusia.",
+    "patterns": [
+      "Siapa Arif Ramadhan",
+      "dosen Manajemen",
+      "dosen Fakultas Ekonomi dan Bisnis",
+      "bidang keahlian Arif Ramadhan"
+    ],
+    "answer": "Data dummy: Arif Ramadhan, M.M. Fakultas: Fakultas Ekonomi dan Bisnis. Program studi: Manajemen. Bidang keahlian: Manajemen sumber daya manusia. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_008",
+    "category": "dosen",
+    "content": "Lina Oktaviani, M.Par. adalah dosen fiktif. Fakultas: Fakultas Pariwisata dan Perhotelan. Program studi: Pariwisata. Bidang keahlian: Pengelolaan destinasi wisata.",
+    "patterns": [
+      "Siapa Lina Oktaviani",
+      "dosen Pariwisata",
+      "dosen Fakultas Pariwisata dan Perhotelan",
+      "bidang keahlian Lina Oktaviani"
+    ],
+    "answer": "Data dummy: Lina Oktaviani, M.Par. Fakultas: Fakultas Pariwisata dan Perhotelan. Program studi: Pariwisata. Bidang keahlian: Pengelolaan destinasi wisata. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_009",
+    "category": "dosen",
+    "content": "Bima Kurniawan, M.Psi. adalah dosen fiktif. Fakultas: Fakultas Psikologi dan Kesehatan. Program studi: Psikologi. Bidang keahlian: Psikologi pendidikan.",
+    "patterns": [
+      "Siapa Bima Kurniawan",
+      "dosen Psikologi",
+      "dosen Fakultas Psikologi dan Kesehatan",
+      "bidang keahlian Bima Kurniawan"
+    ],
+    "answer": "Data dummy: Bima Kurniawan, M.Psi. Fakultas: Fakultas Psikologi dan Kesehatan. Program studi: Psikologi. Bidang keahlian: Psikologi pendidikan. Nama dan profil ini sepenuhnya fiktif."
+  },
+  {
+    "id": "dosen_010",
+    "category": "dosen",
+    "content": "dr. Naufal Akbar, M.Kes. adalah dosen fiktif. Fakultas: Fakultas Kedokteran. Program studi: Kedokteran. Bidang keahlian: Kesehatan masyarakat.",
+    "patterns": [
+      "Siapa dr. Naufal Akbar",
+      "dosen Kedokteran",
+      "dosen Fakultas Kedokteran",
+      "bidang keahlian Naufal Akbar"
+    ],
+    "answer": "Data dummy: dr. Naufal Akbar, M.Kes. Fakultas: Fakultas Kedokteran. Program studi: Kedokteran. Bidang keahlian: Kesehatan masyarakat. Nama dan profil ini sepenuhnya fiktif."
+  }
+]

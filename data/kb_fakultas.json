@@ -1,0 +1,124 @@
+
+[
+  {
+    "id": "fakultas_fip",
+    "category": "fakultas",
+    "content": "Fakultas Ilmu Pendidikan (FIP) Universitas Negeri Padang. Contoh program studi: Administrasi Pendidikan, Bimbingan dan Konseling, Pendidikan Guru Sekolah Dasar, Pendidikan Guru Pendidikan Anak Usia Dini, Pendidikan Luar Biasa, Pendidikan Nonformal, dan Teknologi Pendidikan.",
+    "patterns": [
+      "FIP",
+      "Fakultas Ilmu Pendidikan",
+      "jurusan FIP",
+      "program studi FIP"
+    ],
+    "answer": "Fakultas Ilmu Pendidikan (FIP) merupakan salah satu fakultas di UNP. Contoh program studinya antara lain Administrasi Pendidikan, Bimbingan dan Konseling, PGSD, dan Teknologi Pendidikan."
+  },
+  {
+    "id": "fakultas_fbs",
+    "category": "fakultas",
+    "content": "Fakultas Bahasa dan Seni (FBS) Universitas Negeri Padang. Contoh program studi: Pendidikan Bahasa dan Sastra Indonesia, Pendidikan Bahasa Inggris, Pendidikan Bahasa Jepang, Pendidikan Musik, Pendidikan Seni Rupa, Sastra Indonesia, Sastra Inggris, dan Desain Komunikasi Visual.",
+    "patterns": [
+      "FBS",
+      "Fakultas Bahasa dan Seni",
+      "jurusan FBS",
+      "program studi FBS"
+    ],
+    "answer": "Fakultas Bahasa dan Seni (FBS) memiliki bidang studi bahasa, sastra, dan seni. Contoh program studinya adalah Pendidikan Bahasa Inggris, Sastra Indonesia, Pendidikan Musik, dan Desain Komunikasi Visual."
+  },
+  {
+    "id": "fakultas_fmipa",
+    "category": "fakultas",
+    "content": "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) Universitas Negeri Padang. Contoh program studi: Pendidikan Matematika, Pendidikan Biologi, Pendidikan Fisika, Pendidikan Kimia, Matematika, Biologi, Fisika, Kimia, Statistika, dan Ilmu Aktuaria.",
+    "patterns": [
+      "FMIPA",
+      "Fakultas Matematika dan IPA",
+      "Fakultas MIPA",
+      "jurusan FMIPA"
+    ],
+    "answer": "FMIPA adalah Fakultas Matematika dan Ilmu Pengetahuan Alam. Contoh program studinya meliputi Pendidikan Matematika, Biologi, Fisika, Kimia, Statistika, dan Ilmu Aktuaria."
+  },
+  {
+    "id": "fakultas_fis",
+    "category": "fakultas",
+    "content": "Fakultas Ilmu Sosial (FIS) Universitas Negeri Padang. Contoh program studi: Pendidikan Geografi, Pendidikan Sejarah, Pendidikan Sosiologi, Pendidikan Pancasila dan Kewarganegaraan, Geografi, Ilmu Administrasi Negara, Ilmu Hukum, Ilmu Komunikasi, dan Antropologi.",
+    "patterns": [
+      "FIS",
+      "Fakultas Ilmu Sosial",
+      "jurusan FIS",
+      "program studi FIS"
+    ],
+    "answer": "Fakultas Ilmu Sosial (FIS) menaungi bidang ilmu sosial. Contoh program studinya adalah Pendidikan Geografi, Pendidikan Sejarah, Ilmu Hukum, Ilmu Komunikasi, dan Antropologi."
+  },
+  {
+    "id": "fakultas_ft",
+    "category": "fakultas",
+    "content": "Fakultas Teknik (FT) Universitas Negeri Padang. Contoh program studi: Pendidikan Teknik Informatika, Informatika, Pendidikan Teknik Elektro, Teknik Elektro, Pendidikan Teknik Mesin, Teknik Mesin, Teknik Sipil, Teknik Pertambangan, dan Teknik Geologi.",
+    "patterns": [
+      "FT",
+      "Fakultas Teknik",
+      "jurusan FT",
+      "program studi FT",
+      "Informatika UNP"
+    ],
+    "answer": "Fakultas Teknik (FT) memiliki program studi di bidang teknologi dan rekayasa. Contohnya Informatika, Pendidikan Teknik Informatika, Teknik Elektro, Teknik Sipil, dan Teknik Mesin."
+  },
+  {
+    "id": "fakultas_fik",
+    "category": "fakultas",
+    "content": "Fakultas Ilmu Keolahragaan (FIK) Universitas Negeri Padang. Contoh program studi: Pendidikan Jasmani, Kesehatan dan Rekreasi, Pendidikan Kepelatihan Olahraga, dan Ilmu Keolahragaan.",
+    "patterns": [
+      "FIK",
+      "Fakultas Ilmu Keolahragaan",
+      "jurusan FIK",
+      "program studi FIK"
+    ],
+    "answer": "Fakultas Ilmu Keolahragaan (FIK) berfokus pada bidang olahraga dan pendidikan jasmani. Contoh program studinya adalah Pendidikan Jasmani, Pendidikan Kepelatihan Olahraga, dan Ilmu Keolahragaan."
+  },
+  {
+    "id": "fakultas_feb",
+    "category": "fakultas",
+    "content": "Fakultas Ekonomi dan Bisnis (FEB) Universitas Negeri Padang. Contoh program studi: Pendidikan Ekonomi, Akuntansi, Ekonomi Pembangunan, Manajemen, Bisnis Digital, Ekonomi dan Keuangan Islam, dan Manajemen Bisnis Syariah.",
+    "patterns": [
+      "FEB",
+      "Fakultas Ekonomi dan Bisnis",
+      "jurusan FEB",
+      "program studi FEB"
+    ],
+    "answer": "Fakultas Ekonomi dan Bisnis (FEB) menaungi bidang ekonomi, akuntansi, dan bisnis. Contoh program studinya adalah Akuntansi, Manajemen, Bisnis Digital, dan Ekonomi Pembangunan."
+  },
+  {
+    "id": "fakultas_fpp",
+    "category": "fakultas",
+    "content": "Fakultas Pariwisata dan Perhotelan (FPP) Universitas Negeri Padang. Fakultas ini berkaitan dengan bidang pariwisata, perhotelan, tata boga, dan layanan hospitality. Contoh program studi yang tercantum pada laman sarjana UNP antara lain Pariwisata dan Pendidikan Kesejahteraan Keluarga.",
+    "patterns": [
+      "FPP",
+      "Fakultas Pariwisata dan Perhotelan",
+      "jurusan FPP",
+      "program studi FPP"
+    ],
+    "answer": "Fakultas Pariwisata dan Perhotelan (FPP) berkaitan dengan bidang pariwisata dan hospitality. Salah satu program studi yang tercantum pada laman sarjana UNP adalah Pariwisata."
+  },
+  {
+    "id": "fakultas_fpk",
+    "category": "fakultas",
+    "content": "Fakultas Psikologi dan Kesehatan (FPK) Universitas Negeri Padang. Contoh program studi yang tercantum pada laman sarjana UNP adalah Psikologi dan Keperawatan.",
+    "patterns": [
+      "FPK",
+      "Fakultas Psikologi dan Kesehatan",
+      "jurusan FPK",
+      "program studi FPK"
+    ],
+    "answer": "Fakultas Psikologi dan Kesehatan (FPK) merupakan salah satu fakultas di UNP. Contoh program studinya adalah Psikologi dan Keperawatan."
+  },
+  {
+    "id": "fakultas_fk",
+    "category": "fakultas",
+    "content": "Fakultas Kedokteran (FK) Universitas Negeri Padang. Contoh program studi yang tercantum pada laman sarjana UNP adalah Kedokteran, Kedokteran Hewan, Kebidanan, dan Kedokteran Gigi.",
+    "patterns": [
+      "FK",
+      "Fakultas Kedokteran",
+      "jurusan FK",
+      "program studi FK"
+    ],
+    "answer": "Fakultas Kedokteran (FK) merupakan salah satu fakultas di UNP. Contoh program studinya adalah Kedokteran, Kedokteran Hewan, Kebidanan, dan Kedokteran Gigi."
+  }
+]
